@@ -1,0 +1,101 @@
+.result-card {
+  border: 1px solid black;
+  margin: 8px;
+  margin-top: 32px;
+  display: flex;
+  flex: 1;
+  flex-flow: column wrap;
+  justify-content: "flex-start";
+}
+
+.result-card .ownner-and-fork-container {
+  display: flex;
+  flex: 1;
+}
+.result-card .ownner-and-fork-container .owner-info {
+  display: flex;
+  flex: 10;
+}
+.result-card .ownner-and-fork-container .forked-info {
+  display: flex;
+  flex: 2;
+  text-align: center;
+  color: white;
+  justify-content: center;
+
+  /* background-color: blue;
+  color: white; */
+}
+/* XS */
+@media screen and (max-width: 600px) {
+  .result-card .repo-details {
+    border-bottom: 1px solid black;
+    text-align: left;
+  }
+
+  .result-card .stars-info {
+    border-bottom: 1px solid black;
+    text-align: left;
+  }
+
+  .result-card .license-info {
+    text-align: left;
+  }
+}
+
+/* SMALL MEDIUM LARGE */
+@media screen and (min-width: 601px) {
+  .result-card {
+    flex-flow: row wrap;
+  }
+
+  .result-card .repo-details {
+    border-right: 1px solid black;
+    flex: 8;
+  }
+  /* .result-card .ownner-and-fork-container {
+    display: flex;
+    flex: 1;
+  }
+  .result-card .ownner-and-fork-container .owner-info {
+    display: flex;
+    flex: 10;
+  }
+  .result-card .ownner-and-fork-container .forked-info {
+    display: flex;
+    flex: 2;
+  } */
+
+  .result-card .stars-info {
+    border-right: 1px solid black;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    flex: 2;
+  }
+
+  .result-card .stars-info .stars-label {
+    flex: 1;
+  }
+  .result-card .stars-info .stars-count {
+    flex: 1;
+  }
+
+  .result-card .license-info {
+    flex: 2;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+  }
+
+  .result-card .licnese-info .license-label {
+    flex: 1;
+  }
+  .result-card .license-info .license-count {
+    flex: 1;
+  }
+
+  .repo-description {
+    text-align: left;
+  }
+}

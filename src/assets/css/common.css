@@ -1,0 +1,31 @@
+.font-size-16 {
+  font-size: 16px !important;
+}
+.padding-left-8 {
+  padding-left: 8px;
+}
+
+.padding-right-8 {
+  padding-right: 8px;
+}
+.padding-8 {
+  padding: 8px;
+}
+
+.margin-left-2 {
+  margin-left: 2px;
+}
+
+.margin-right-2 {
+  margin-right: 2px;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.error {
+  font-weight: 600;
+  color: red;
+  font-size: 20px;
+}

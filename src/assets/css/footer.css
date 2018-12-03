@@ -1,0 +1,10 @@
+.footer-custom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-custom .container .footer-text {
+  margin-bottom: 20px;
+}
