@@ -1,5 +1,28 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## App Info
+
+### Tools/packages used - 
+- react - DOM management
+- redux - state management
+- redux-form - form validation + controlled form components + form state management
+- redux-thunk - async actions
+- react-router-dom - query string management
+- query-validator -  query validation
+- materialize-css- - styling
+
+### Form validation - 
+- Text query and stars are mandatory and validated. Search button will be disabled until both of them are valid.
+- License and Fork are optional.
+
+### General -
+- query string is updated with the latest form query
+- On service failure - "Oops, Try Again" message shown.
+- All links disabled and spinner shown when service call is in progress.
+- "No result. Enter a different query" message show when service returns  result.
+- "Please enter a query and click SEARCH button" message shown only on initial load. Never shown after any search is triggered.
+- Unit tests - covered few of the components using .
+
 ## Available Scripts
 
 In the project directory, you can run:
